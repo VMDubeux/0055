@@ -9,31 +9,61 @@ public class Spawner : MonoBehaviour
 {
     public GameObject enemy;
     public Transform [] spawnPos;
-    public int maxEnemyCount = 10, timeToStart = 5, wave = 5, timeBetweenWaves = 3;
-    int eCount = 0;
+    public int maxEnemyCount = 10, timeToStart = 5;
+    public float enemySpawnRate = 2f;
+    int eCount = 0, spawnPosIndex = 0;
+    public bool top, bot, right, left;
 
     private void Start()
     {
-        Invoke("SpawnEnemies", timeToStart);
+        Invoke("WaveSpawn", timeToStart);
     }
     private void Update()
     {
-
+        SpawnController();
     }
-    void SpawnEnemies()
+    void WaveSpawn()
     {
         while(eCount < maxEnemyCount)
         {
         eCount++;
-        Invoke("Enemy", eCount*timeBetweenWaves );
+        Invoke("Enemy", eCount*enemySpawnRate);
         }
     }
     void Enemy()
     {
-        int r = Random.Range(0, spawnPos.Length);
-        for( int i = 0; i < wave; i++)
+        Instantiate(enemy, spawnPos[spawnPosIndex].position, Quaternion.identity);
+    }
+
+    void SpawnController()
+    {
+        if(top)
         {
-            Instantiate(enemy, spawnPos[r].position, Quaternion.identity);
+            top = false;
+            eCount = 0;
+            spawnPosIndex = 0;
+            WaveSpawn();
+        }
+        if (bot)
+        {
+            bot = false;
+            eCount = 0;
+            spawnPosIndex = 1;
+            WaveSpawn();
+        }
+        if(right)
+        {
+            right = false;
+            eCount = 0;
+            spawnPosIndex = 2;
+            WaveSpawn();
+        }
+        if(left)
+        {
+            left = false;
+            eCount = 0;
+            spawnPosIndex = 3; 
+            WaveSpawn();
         }
     }
 }

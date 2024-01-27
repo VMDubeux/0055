@@ -434,8 +434,11 @@ MonoBehaviour:
   - {fileID: 819440490}
   maxEnemyCount: 10
   timeToStart: 5
-  wave: 5
-  timeBetweenWaves: 3
+  enemySpawnRate: 1
+  top: 0
+  bot: 0
+  right: 0
+  left: 0
 --- !u!4 &1058808420
 Transform:
   m_ObjectHideFlags: 0
