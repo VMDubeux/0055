@@ -33,12 +33,7 @@ public class Spawner : MonoBehaviour
         int r = Random.Range(0, spawnPos.Length);
         for( int i = 0; i < wave; i++)
         {
-            StartCoroutine(EnemyUnit(r));
+            Instantiate(enemy, spawnPos[r].position, Quaternion.identity);
         }
-    }
-    IEnumerator EnemyUnit(int r)
-    {
-        yield return new WaitForSecondsRealtime(0.5f);
-        Instantiate(enemy, spawnPos[r].position, Quaternion.identity);
     }
 }
