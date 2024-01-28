@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAnimator : MonoBehaviour
 {
     [Header("Elements")]
-    [SerializeField] private Animator _animator;
+    [SerializeField] public Animator _animator;
 
     [Header("Settings")]
     [SerializeField] private float _moveSpeedMultiplier;
@@ -31,33 +31,40 @@ public class PlayerAnimator : MonoBehaviour
         }
         else
         {
+            
             PlayIdleAnimation();
         }
     }
 
-    public void ManageShootAnimation(Vector3 moveVector)
+    /*public void ManageShootAnimation(Vector3 moveVector)
     {
         if (moveVector.magnitude > 0)
         {
-            _animator.SetFloat("moveSpeed", moveVector.magnitude * _moveSpeedMultiplier);
-            PlayShootingAnimation();
+            _animator.SetBool("isShooting", true);
+            PlayShootAnimation();
 
-            _animator.transform.forward = moveVector.normalized;
+            
         }
         else
         {
-            PlayIdleAnimation();
+            _animator.SetBool("isShooting", false);
         }
-    }
+    }*/
 
-        private void PlayRunAnimation()
+    private void PlayRunAnimation()
     {
+        
         _animator.Play("Run");
     }
 
     private void PlayIdleAnimation()
     {
         _animator.Play("Idle");
+    }
+
+    private void PlayShootAnimation()
+    {
+        _animator.Play("Shoot");
     }
 
     public void PlayShootingAnimation()
@@ -67,6 +74,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public void StopShootingAnimation()
     {
+        
         _animator.SetLayerWeight(1, 0);
     }
 }

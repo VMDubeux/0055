@@ -8,9 +8,9 @@ public class InimigosSettup : MonoBehaviour
 
     public PlayerController playerController;
 
-    [SerializeField] private float vidaEnemy;
+    [SerializeField] public float vidaEnemy;
     public int essenciaLuz;
-    public GameObject sangueInimigo;
+    //public GameObject sangueInimigo;
 
     //private AudioManager audioManager;
 
@@ -99,7 +99,7 @@ public class InimigosSettup : MonoBehaviour
 
     public void MorteEnemy()
     {
-        GameObject sangue = Instantiate(sangueInimigo, transform.position, transform.rotation);
-        Destroy(sangue, 0.3f);
+        //GameObject sangue = Instantiate(sangueInimigo, transform.position, transform.rotation);
+        //Destroy(sangue, 0.3f);
     }
 }
