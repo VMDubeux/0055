@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InimigosSettup : MonoBehaviour
 {
+    public PlayerController playerController;
+
     [SerializeField] private float vidaEnemy;
     public int essenciaLuz;
     public GameObject sangueInimigo;
@@ -27,7 +29,7 @@ public class InimigosSettup : MonoBehaviour
 
     private void Start()
     {
-
+        playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
     }
 
     private void Update()
@@ -58,11 +60,11 @@ public class InimigosSettup : MonoBehaviour
         {
             vidaEnemy--;
         }
-    }
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        PlayerGetPowerUp(collision);
+        if (other.CompareTag("Player")) 
+        {
+            other.GetComponent<PlayerController>().vidaPlayer--;
+        }
     }
 
     public void PlayerGetPowerUp(Collision collision)      //Power up colide com o "Player"
@@ -74,6 +76,7 @@ public class InimigosSettup : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     public void SummonPowerUp()        // Invoca o power up baseado em %
     {
         int porcentagem = Random.Range(0, 101);
@@ -84,9 +87,9 @@ public class InimigosSettup : MonoBehaviour
         }
     }
 
-    public void FornecerEssenciaLuz() 
+    public void FornecerEssenciaLuz()
     {
-        
+        //GameManager.Instance.
     }
 
     public void MorteEnemy()

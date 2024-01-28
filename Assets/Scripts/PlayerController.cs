@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public GameObject muniçãoLuz;
     [SerializeField] private float balaVelocidade;
     public Transform canoArma;
+    public int vidaPlayer = 3;
 
     void Start()
     {
@@ -46,6 +47,19 @@ public class PlayerController : MonoBehaviour
         characterController.Move(movement);
         playerAnimator.ManageAnimations(movement);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+            Debug.Log("Sexo");
+            vidaPlayer--;
+        
+    }
+
+    /*public void PerderVida(int quantidade) 
+    {
+        vidaPlayer -= quantidade;
+    }*/
 
     void Tiro()
     {
