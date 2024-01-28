@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InimigosSettup : MonoBehaviour
 {
+    public GameManager gameManager;
+
     public PlayerController playerController;
 
     [SerializeField] private float vidaEnemy;
@@ -30,6 +32,7 @@ public class InimigosSettup : MonoBehaviour
     private void Start()
     {
         playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
     }
 
     private void Update()
@@ -45,6 +48,7 @@ public class InimigosSettup : MonoBehaviour
             Destroy(gameObject);
             //GameManager.Instance.RecordPlus(pointsForGive);
             //audioManager.PlaySFX("Explosion", 0.15f);
+            FornecerEssenciaLuz();
             MorteEnemy();
         }
     }
@@ -59,6 +63,7 @@ public class InimigosSettup : MonoBehaviour
         if (other.CompareTag("Tiro"))
         {
             vidaEnemy--;
+            Destroy(other.gameObject);
         }
 
         if (other.CompareTag("Player")) 
@@ -89,7 +94,7 @@ public class InimigosSettup : MonoBehaviour
 
     public void FornecerEssenciaLuz()
     {
-        //GameManager.Instance.
+        gameManager.EssenciaBar.value += 0.5f;
     }
 
     public void MorteEnemy()

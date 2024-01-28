@@ -1,6 +1,7 @@
 using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,16 +11,23 @@ public class GameManager : MonoBehaviour
     private int coraçõesQuantidade = 3;
     PlayerController playerController;
     public Image canvasDerrota;
+    public Slider EssenciaBar;
+
 
     void Start()
     {
         playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+
+        EssenciaBar.maxValue = 100;
+        EssenciaBar.minValue = 10;
+        EssenciaBar.value = 0;
     }
 
     void Update()
     {
         NumeroInimigosAnalise();
         AtualizarVida();
+        AtualizarEssencia();
     }
 
     void NumeroInimigosAnalise()
@@ -32,6 +40,11 @@ public class GameManager : MonoBehaviour
         {
             GameObject.FindWithTag("Portal").SetActive(false);
         }
+    }
+
+    public float AtualizarEssencia() 
+    {
+        return EssenciaBar.value;
     }
 
     public void AtualizarVida()
