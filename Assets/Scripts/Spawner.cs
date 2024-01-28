@@ -9,15 +9,11 @@ public class Spawner : MonoBehaviour
 {
     public GameObject enemy;
     public Transform [] spawnPos;
-    public int maxEnemyCount = 10, timeToStart = 5;
+    public int maxEnemyCount = 10;
     public float enemySpawnRate = 2f;
     int eCount = 0, spawnPosIndex = 0;
     public bool top, bot, right, left;
 
-    private void Start()
-    {
-        Invoke("WaveSpawn", timeToStart);
-    }
     private void Update()
     {
         SpawnController();
