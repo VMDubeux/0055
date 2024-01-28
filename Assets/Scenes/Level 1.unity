@@ -317,63 +317,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37913555}
   m_CullTransparentMesh: 1
---- !u!1001 &95319612
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1544945450961873335, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_Name
-      value: SlowPickUp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.6581904
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.893614
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.595792
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3295145025283037052, guid: db5a660b38c4211428416dbaba686a06, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: db5a660b38c4211428416dbaba686a06, type: 3}
 --- !u!1 &129793492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,7 +1338,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
@@ -2689,6 +2632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   "muni\xE7\xE3oLuz": {fileID: 9041888849415010334, guid: 81bdd94e2c481764e8f63a16045368e2, type: 3}
+  tiros:
+  - {fileID: 9041888849415010334, guid: 81bdd94e2c481764e8f63a16045368e2, type: 3}
+  - {fileID: 9041888849415010334, guid: a840091885ac8c04aaacf7c7683e83b5, type: 3}
   balaVelocidade: 5000
   canoArma: {fileID: 874171356}
   vidaPlayer: 3
@@ -6488,6 +6434,7 @@ MonoBehaviour:
   playerController: {fileID: 1772395375}
   vidaEnemy: 2
   essenciaLuz: 1
+  sangueInimigo: {fileID: 0}
   powerUp: []
   AudioClipEnemiesMorte: {fileID: 0}
   PlayerIsAudioSource: {fileID: 0}
@@ -7281,4 +7228,3 @@ SceneRoots:
   - {fileID: 7591182666716215268}
   - {fileID: 1772395373}
   - {fileID: 1173505581}
-  - {fileID: 95319612}

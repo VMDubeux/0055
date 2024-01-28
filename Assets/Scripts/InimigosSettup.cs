@@ -10,7 +10,7 @@ public class InimigosSettup : MonoBehaviour
 
     [SerializeField] public float vidaEnemy;
     public int essenciaLuz;
-    //public GameObject sangueInimigo;
+    public GameObject sangueInimigo;
 
     //private AudioManager audioManager;
 
@@ -85,7 +85,7 @@ public class InimigosSettup : MonoBehaviour
     public void SummonPowerUp()        // Invoca o power up baseado em %
     {
         int porcentagem = Random.Range(0, 101);
-        if (porcentagem >= 80)
+        if (porcentagem >= 95)
         {
             int powerUps = Random.Range(0, powerUp.Length);
             Instantiate(powerUp[powerUps], transform.position, powerUp[powerUps].transform.rotation);
@@ -99,7 +99,7 @@ public class InimigosSettup : MonoBehaviour
 
     public void MorteEnemy()
     {
-        //GameObject sangue = Instantiate(sangueInimigo, transform.position, transform.rotation);
-        //Destroy(sangue, 0.3f);
+        GameObject sangue = Instantiate(sangueInimigo, transform.position, transform.rotation);
+        Destroy(sangue, 1f);
     }
 }

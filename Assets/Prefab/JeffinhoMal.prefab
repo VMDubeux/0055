@@ -1344,7 +1344,10 @@ MonoBehaviour:
   playerController: {fileID: 0}
   vidaEnemy: 2
   essenciaLuz: 1
-  powerUp: []
+  sangueInimigo: {fileID: 2408317147971469434, guid: b4eb724e5935d204fb7ee571bdf63063, type: 3}
+  powerUp:
+  - {fileID: 1544945450961873335, guid: db5a660b38c4211428416dbaba686a06, type: 3}
+  - {fileID: 1839828644448651492, guid: 51c096e0d1f8e4d4aaad6ae8c626c4f1, type: 3}
   AudioClipEnemiesMorte: {fileID: 0}
   PlayerIsAudioSource: {fileID: 0}
 --- !u!54 &2303360499613985778
