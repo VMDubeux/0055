@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 2019527270}
   - component: {fileID: 2019527269}
   m_Layer: 5
-  m_Name: Panel_transparency_CONGRATS
+  m_Name: Canvas_Vitoria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -489,7 +489,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5641721291585654549, guid: 055d41ea28177bd48841fc00fc8d077f, type: 3}
       propertyPath: m_Name
-      value: Panel_transparency_DEFEATED
+      value: Canvas_Derrota
       objectReference: {fileID: 0}
     - target: {fileID: 6358525553434670698, guid: 055d41ea28177bd48841fc00fc8d077f, type: 3}
       propertyPath: m_Pivot.x
