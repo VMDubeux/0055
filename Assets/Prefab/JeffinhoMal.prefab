@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6378361775092368884}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6553690124799468068}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7403372517235458082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3P.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7364284229254492375}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeetF.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1941068525039470247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3P.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4952161348477774602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5P.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4175450534174489425}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Feet.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6262017474443909372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3281467398423666796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3501648375833061170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6996366333808151320}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 484842600911653516}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Calf.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7992162258764550795}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560573780166736708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2P.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5845713805209293730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeetF.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3224931460147078804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3125178272940228701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7709371123077156656}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5P.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -586,7 +586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7676444254764697826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +617,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4113243050255074316}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fore_Arm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567906225382938205}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3800004011735736604}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2P.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3123902447977830906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971934477255122045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1P.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8938106627301417153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeetF.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6367844216104209536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Calf.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1516419599329284484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3P.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7173947788864532482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1P.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5718228496242802385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8951956254343672606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5396721577816604341}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4P.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 147537681911603317}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14256585293835706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1064,7 +1064,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8445619663773328709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2P.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176808160415308294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Arm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1128,7 +1128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8760469693858462246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4P.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1160,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8131171457016950692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fore_Arm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7843165997380147923}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4P.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1223,7 +1223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1003302029399709185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5P.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3158611661627139914}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeetF.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 8894449345454945416}
   - component: {fileID: 2303360499613985778}
   - component: {fileID: 3581338376587321997}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: JeffinhoMal
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcc6f59f058998146a61d9b396568f73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemySpeed: 0.25
+  EnemySpeed: 0.6
 --- !u!114 &8894449345454945416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1404,7 +1404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2734336781755361031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1436,7 +1436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3341733021278638037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1P.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8266819776960795832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Feet.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8934167714881478129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin2P.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1533,7 +1533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6088916953498476868}
   - component: {fileID: 3765575336694038444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1659,7 +1659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2335493233677282535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3P.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1691,7 +1691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4432335043657803170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1724,7 +1724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8354494450005156543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Arm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1756,7 +1756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9155620473516956290}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin4P.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1787,7 +1787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738885104819509485}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1819,7 +1819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9004483493618100888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin1P.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1852,7 +1852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2452344209714697878}
   - component: {fileID: 240936606054665156}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1906,7 +1906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1185228362073263518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1939,7 +1939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4384358905316291532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin5P.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1971,7 +1971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 75756737615834341}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fin3B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
