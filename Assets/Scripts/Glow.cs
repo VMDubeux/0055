@@ -35,4 +35,18 @@ public class Glow : MonoBehaviour
             Destroy(bullet);
         }
     }
+
+    public void increaseLight()
+    {
+        GameObject bullet = GameObject.Find("Capsule");
+        GameObject light = GameObject.Find("Point Light");
+        Light lightComp = light.GetComponent<Light>();
+        lightComp.range += 1;
+        lightComp.intensity += 1;
+        if(bullet  == null)
+        {
+            lightComp.range = 0;
+            lightComp.intensity = 0;
+        }
+    }
 }
