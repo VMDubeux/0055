@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Slider EssenciaBar;
 
 
-    void Start()
+    void Awake()
     {
         playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
 
@@ -32,13 +32,13 @@ public class GameManager : MonoBehaviour
 
     void NumeroInimigosAnalise()
     {
-        if (GameObject.FindWithTag("Inimigo") == null)
+        if (GameObject.FindWithTag("Inimigo") != null)
         {
-            GameObject.FindWithTag("Portal").SetActive(true);
+            GameObject.FindWithTag("Portal").SetActive(false);
         }
         else
         {
-            GameObject.FindWithTag("Portal").SetActive(false);
+            GameObject.FindWithTag("Portal").SetActive(true);
         }
     }
 

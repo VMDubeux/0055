@@ -22,11 +22,13 @@ public class PlayerController : MonoBehaviour
     public int vidaPlayer = 3;
     public float PlayerFireRateKeyX = 0.75f;
     private float _playerNextShoot = 0.0f;
+    private GameManager gameManager;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         playerAnimator = GetComponent<PlayerAnimator>();
+        gameManager = GetComponent<GameManager>();
     }
 
     private void Update()
@@ -61,7 +63,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        vidaPlayer--;
+        if (collision.gameObject.CompareTag("Inimigo"))
+        {
+            vidaPlayer--;
+        }
     }
 
     void Tiro()
@@ -76,9 +81,9 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.DownArrow)) && (Time.time > _playerNextShoot))
         {
             _playerNextShoot = Time.time + PlayerFireRateKeyX;
-            
+
             //playerAnimator._animator.SetBool("isShooting", true);
-            
+
             Vector3 direction = new(tiroDireçãoX, 0, tiroDireçãoY);
             Vector3 movement = balaVelocidade * Time.deltaTime * direction.normalized;
             GameObject bala = Instantiate(muniçãoLuz, canoArma.transform.position, muniçãoLuz.transform.rotation);

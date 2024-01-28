@@ -8,7 +8,7 @@ public class InimigosController : MonoBehaviour
     private GameObject playerObject;
     public float EnemySpeed = 0.1f;
     private Vector3 targetPosition;
-    private Animator _enemyAnimator;
+    public Animator _enemyAnimator;
     private Rigidbody _enemyRigidbody;
 
 
@@ -34,7 +34,7 @@ public class InimigosController : MonoBehaviour
             }
             else
             {
-                _enemyAnimator.Play("Atacando");
+                
                 _enemyAnimator.SetBool("Atacando", true);
             }
         }
