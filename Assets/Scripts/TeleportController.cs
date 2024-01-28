@@ -1,35 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class TeleportController : MonoBehaviour
 {
-    public GameObject player;
     public GameObject portalTeleporte;
+    private GameObject player;
+    public Vector3 acréscimo;
 
-    void Start()
+    private void Start()
     {
-        //rb = GetComponent<Rigidbody>();
-    }
-
-    void Update()
-    {
-           
+        player = GameObject.FindWithTag("Player");
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Sexo");
-            player.GetComponent<Transform>().position = portalTeleporte.GetComponent<Transform>().position;
-        }
-    }
-
-
-    private void OnTr(Collider other)
-    {
-        
+        player.GetComponent<Transform>().position = portalTeleporte.transform.position + acréscimo;
     }
 }
